@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BsttlrScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\BsttlrScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp",
+              "RelativeDocumentMoniker": "DQ\\main.cpp",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp",
+              "RelativeToolTip": "DQ\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-11T16:11:51.317Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "DQ\\BsttlrScene.cpp",
               "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BsttlrScene.cpp",
               "RelativeToolTip": "DQ\\BsttlrScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-10T04:58:48.623Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "DQ\\BattleScene.h",
               "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.h",
               "RelativeToolTip": "DQ\\BattleScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-10T03:49:32.038Z",
               "EditorCaption": ""
