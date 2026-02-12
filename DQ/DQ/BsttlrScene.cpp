@@ -1,8 +1,13 @@
 #include "BattleScene.h"
 
+using namespace std;
+
 void BattleScene::Init()
 {
 	state = BattleState::start;
+
+	player = new Character("プレイヤー", 30, 5);
+	enemy = new Character("スライム", 8, 3);
 }
 
 void BattleScene::Update()
@@ -17,9 +22,4 @@ void BattleScene::Update()
 		break;
 	
 	}
-}
-
-void BattleScene::Draw(ID3D12GraphicsCommandList* cmdList)
-{
-	
 }

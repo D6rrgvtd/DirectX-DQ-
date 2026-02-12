@@ -1,9 +1,11 @@
 #pragma once
-#include <d3d12.h>
+#include <iostream>
+#include "Character.h"
 enum class BattleState
 {
 	start,
-	commandSelect
+	commandSelect,
+	end
 };
 
 class BattleScene
@@ -11,8 +13,10 @@ class BattleScene
 public:
 	void Init();
 	void Update();
-	void Draw(ID3D12GraphicsCommandList* cmdList);
-
+	
 private:
 	BattleState state;
+
+	Character* player;
+	Character* enemy;
 };
