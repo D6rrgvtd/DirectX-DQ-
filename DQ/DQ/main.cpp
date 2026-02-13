@@ -10,7 +10,7 @@ int main()
 	while (true)
 	{
 		battle.Update();
-		battle.Draw(nullptr);
+	
 		break;
 	}
 
