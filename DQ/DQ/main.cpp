@@ -1,18 +1,8 @@
-#include "BattleScene.h"
-
+#include "Game.h"
 
 int main()
 {
-	BattleScene battle;
-
-	battle.Init();
-
-	while (true)
-	{
-		battle.Update();
-	
-		break;
-	}
-
+	Game game;
+	game.Run();
 	return 0;
 }
