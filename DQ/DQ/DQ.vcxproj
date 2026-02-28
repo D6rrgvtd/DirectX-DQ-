@@ -127,7 +127,10 @@
     <ClInclude Include="Character.h" />
     <ClInclude Include="FieldScene.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="SaveManager.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="Spell.h" />
+    <ClInclude Include="TownScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BattleScene.cpp" />
@@ -135,6 +138,8 @@
     <ClCompile Include="FieldScene.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SaveManager.cpp" />
+    <ClCompile Include="TownScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

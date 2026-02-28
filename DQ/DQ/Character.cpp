@@ -1,9 +1,17 @@
 #include "Character.h"
 
-Character::Character(const std::string&, int hp, int atk, int agi)
-	: name(name),hp(hp),attack(atk), agility(agi)
+Character::Character(const std::string&, int hp, int attack, int speed)
 {
+	this->name = name;
+	this->maxHP = hp;
+	this->hp = hp;
+	this->attackPower = attack;
+	this->speed = speed;
+	gold = 100;
+	maxMP = 10;
+	mp = maxMP;
 }
+
 
 int Character::GetHP() const
 {
@@ -26,10 +34,51 @@ void Character::TakeDamage(int damage)
 
 int Character::Attack() const
 {
-	return attack;
+	return attackPower;
 }
 
-int Character::GetAGI() const
+int Character::GetGold() const
 {
-	return agility;
+	return gold;
+}
+
+void Character::AddGold(int amount)
+{
+	gold += amount;
+	if (gold < 0)
+		gold = 0;
+}
+
+void Character::AddAttack(int amount)
+{
+	attackPower += amount;
+}
+
+void Character::FullHeal()
+{
+	hp = maxHP;
+}
+
+int Character::GetMP() const
+{
+	return mp;
+}
+
+void Character::UseMP(int amount)
+{
+	mp -= amount;
+	if (mp < 0)  mp = 0;
+
+}
+
+void Character::RecoverMP(int amount)
+{
+	mp += amount;
+	if (mp > maxMP) mp = maxMP;
+}
+
+void Character::RecoverHP(int amount)
+{
+	hp += amount;
+	if (mp > maxHP) hp = maxHP;
 }

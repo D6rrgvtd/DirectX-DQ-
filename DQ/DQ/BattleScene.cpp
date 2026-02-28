@@ -58,7 +58,8 @@ void BattleScene::Update()
         }
 
         cout << "1. たたかう\n";
-        cout << "2. にげる\n";
+        cout << "2. じゅもん\n";
+        cout << "3. にげる\n";
         cout << "コマンド: ";
 
         int command;
@@ -81,6 +82,44 @@ void BattleScene::Update()
             }
         }
         else if (command == 2)
+        {
+            cout << "1. 　ボル\n";
+            cout << "2. 　ヒール\n";
+
+            int spellnput;
+            cin >> spellnput;
+
+            if (spellnput == 1)
+            {
+                if (player->GetMP() >= 3)
+                {
+                    player->UseMP(3);
+
+                    int damage = 10;
+                    enemies[0]->TakeDamage(damage);
+                    cout << "ボル!" << damage << "ダメージ\n";
+                }
+                else
+                {
+                    cout << "MPが足りない!\n";
+                }
+            }
+            else if (spellnput == 2)
+            {
+                if (player->GetMP() >= 2)
+                {
+                    player->UseMP(2);
+                    player->RecoverHP(10);
+
+                    cout << "ヒール!" << endl << " HP回復！\n";
+                }
+                else
+                {
+                    cout << "MPが足りない！\n";
+                }
+            }
+        }
+        else if (command == 3)
         {
             cout << "にげだした！\n";
             state = BattleState::end;
