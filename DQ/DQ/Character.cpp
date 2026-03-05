@@ -10,6 +10,10 @@ Character::Character(const std::string&, int hp, int attack, int speed)
 	gold = 100;
 	maxMP = 10;
 	mp = maxMP;
+
+	level = 1;
+	exp = 0;
+	nextExp = 10;
 }
 
 
@@ -53,6 +57,32 @@ void Character::AddAttack(int amount)
 {
 	attackPower += amount;
 }
+
+void Character::AddExp(int amount)
+{
+	exp += amount;
+	std::cout << amount << "の経験値を獲得\n";
+
+	if (exp >= nextExp)
+	{
+		LevelUp();
+	}
+}
+
+void Character::LevelUp()
+{
+	level++;
+	exp -= nextExp;
+	nextExp += 10;
+
+	maxHP += 5;
+	attackPower += 2;
+	maxMP += 3;
+
+	std::cout << "レベルアップ\n";
+	std::cout << "レベル" << level << "になった！\n";
+}
+
 
 void Character::FullHeal()
 {

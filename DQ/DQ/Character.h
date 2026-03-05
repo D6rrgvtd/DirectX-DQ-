@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "Spell.h"
+#include <iostream>
 class Character
 {
 public:
@@ -13,6 +14,8 @@ public:
 	int GetGold() const;
 	void AddGold(int amount);
 	void AddAttack(int amount);
+	void AddExp(int amount);
+	void LevelUp();
 	void FullHeal();
 	int GetMP() const;
 	void UseMP(int amount);
@@ -28,4 +31,7 @@ protected:
 	int attackPower;
 	int mp;
 	int maxMP;
+	int level;
+	int exp;
+	int nextExp;
 };
