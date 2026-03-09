@@ -25,9 +25,9 @@ void BattleScene::Init()
     enemies.clear();
 	state = BattleState::start;
     isFinished = false;
-	player = new Character("プレイヤー", 30, 5,7);
-    enemies.push_back(new Character("スライムA", 8, 3, 2));
-    enemies.push_back(new Character("スライムB", 8, 3, 3));
+	player = new Character("プレイヤー", 30, 5,7,0,0);
+    enemies.push_back(new Character("スライム1", 8,3,3,2,1));
+    enemies.push_back(new Character("スライム2", 8,3,3,2,1));
     
     srand((unsigned int)time(nullptr));
 
@@ -156,7 +156,13 @@ void BattleScene::Update()
         }
         else
         {
-            cout << "敵はぜんめつした\n";
+            for (auto e : enemies)
+            {
+                cout << e->GetName() << "を倒した！\n";
+                player->AddExp(e->GetExp());
+                player->AddGold(e->GetGold());
+            }
+
         }
         isFinished = true;
         break;

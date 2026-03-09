@@ -5,12 +5,14 @@
 class Character
 {
 public:
-	Character(const std::string& name, int hp, int atk, int speed);
+	Character(const std::string& name, int hp, int atk, int speed,int keke);
    
 	int GetHP() const;
 	const std::string& GetName() const;
 	void TakeDamage(int famage);
 	int Attack() const;
+	int HaveGold() const;
+	int GetExp() const;
 	int GetGold() const;
 	void AddGold(int amount);
 	void AddAttack(int amount);
@@ -28,10 +30,12 @@ protected:
 	int speed;
 	int maxHP;
 	int gold;
+	int maney;
 	int attackPower;
 	int mp;
 	int maxMP;
 	int level;
 	int exp;
+	int keikentu;
 	int nextExp;
 };

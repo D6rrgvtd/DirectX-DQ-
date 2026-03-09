@@ -27,7 +27,7 @@ void TownScene::Update()
     switch (input)
     {
     case 1:
-        cout << "村人: ここはビシャの村です。\n";
+        cout << "村人: ここはビシの村です。\n";
         break;
 
     case 2:
@@ -41,9 +41,9 @@ void TownScene::Update()
 
         if (shopInput == 1)
         {
-            if (player->GetGold() >= 100)
+            if (player->GetGold() >= 15)
             {
-                player->AddGold(-100);
+                player->AddGold(-15);
                 player->AddAttack(5);
                 cout << "こうげき力があがった！\n";
             }
@@ -64,9 +64,9 @@ void TownScene::Update()
 
         if (innInput == 1)
         {
-            if (player->GetGold() >= 20)
+            if (player->GetGold() >= 4)
             {
-                player->AddGold(-20);
+                player->AddGold(-4);
                 player->FullHeal();
                 SaveManager::Save(player);
                 cout << "セーブしました。\n";

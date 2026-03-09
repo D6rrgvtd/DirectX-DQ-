@@ -1,19 +1,22 @@
 #include "Character.h"
 
-Character::Character(const std::string&, int hp, int attack, int speed)
+Character::Character(const std::string&, int hp, int attack, int speed,int keke,int maey)
 {
 	this->name = name;
 	this->maxHP = hp;
 	this->hp = hp;
 	this->attackPower = attack;
 	this->speed = speed;
-	gold = 100;
+	this->keikentu = keke;
+	this->maney = maey;
+
+	gold = 20;
 	maxMP = 10;
 	mp = maxMP;
 
 	level = 1;
 	exp = 0;
-	nextExp = 10;
+	nextExp = 10,12;
 }
 
 
@@ -41,14 +44,24 @@ int Character::Attack() const
 	return attackPower;
 }
 
-int Character::GetGold() const
+int Character::HaveGold() const
 {
 	return gold;
 }
 
+int Character::GetGold() const
+{
+	return maney;
+}
+int Character::GetExp() const
+{
+	return exp;
+}
+
 void Character::AddGold(int amount)
 {
-	gold += amount;
+	gold += maney;
+	std::cout << maney << "ƒS[ƒ‹ƒhŠl“¾\n";
 	if (gold < 0)
 		gold = 0;
 }
@@ -60,8 +73,8 @@ void Character::AddAttack(int amount)
 
 void Character::AddExp(int amount)
 {
-	exp += amount;
-	std::cout << amount << "‚ÌŒoŒ±’l‚ðŠl“¾\n";
+	exp += keikentu;
+	std::cout <<keikentu<< "‚ÌŒoŒ±’l‚ðŠl“¾\n";
 
 	if (exp >= nextExp)
 	{
