@@ -125,3 +125,21 @@ void Character::RecoverHP(int amount)
 	hp += amount;
 	if (mp > maxHP) hp = maxHP;
 }
+void Character::SetHP(int value)
+{
+	hp = value;
+}
+void Character::SetMP(int value)
+{
+	mp = value;
+}
+
+void Character::SetGold(int value)
+{
+	gold = value;
+}
+
+void Character::SetExp(int value)
+{
+	exp = value;
+}

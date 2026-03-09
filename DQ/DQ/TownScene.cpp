@@ -41,9 +41,9 @@ void TownScene::Update()
 
         if (shopInput == 1)
         {
-            if (player->GetGold() >= 15)
+            if (player->HaveGold() >= 15)
             {
-                player->AddGold(-15);
+                player->HaveGold()-15;
                 player->AddAttack(5);
                 cout << "こうげき力があがった！\n";
             }
@@ -64,9 +64,9 @@ void TownScene::Update()
 
         if (innInput == 1)
         {
-            if (player->GetGold() >= 4)
+            if (player->HaveGold() >= 4)
             {
-                player->AddGold(-4);
+                player->HaveGold()-4;
                 player->FullHeal();
                 SaveManager::Save(player);
                 cout << "セーブしました。\n";

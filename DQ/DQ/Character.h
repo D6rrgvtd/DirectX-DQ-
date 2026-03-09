@@ -5,7 +5,7 @@
 class Character
 {
 public:
-	Character(const std::string& name, int hp, int atk, int speed,int keke);
+	Character(const std::string& name, int hp, int atk, int speed,int keke,int maey);
    
 	int GetHP() const;
 	const std::string& GetName() const;
@@ -23,6 +23,11 @@ public:
 	void UseMP(int amount);
 	void RecoverMP(int amount);
 	void RecoverHP(int amount);
+	void SetHP(int value);
+	void SetMP(int value);
+	void SetGold(int value);
+	void SetExp(int value);
+
 
 protected:
 	std::string name;
