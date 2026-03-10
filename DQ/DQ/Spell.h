@@ -3,5 +3,6 @@
 enum class SpellType
 {
 	fire,
-	Heal
+	Heal,
+	boob
 };

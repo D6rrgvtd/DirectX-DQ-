@@ -11,6 +11,7 @@ public:
 	const std::string& GetName() const;
 	void TakeDamage(int famage);
 	int Attack() const;
+	int Getdefence()const;
 	int HaveGold() const;
 	int GetExp() const;
 	int GetGold() const;
@@ -37,6 +38,7 @@ protected:
 	int gold;
 	int maney;
 	int attackPower;
+	int defense;
 	int mp;
 	int maxMP;
 	int level;

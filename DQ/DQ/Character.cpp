@@ -44,6 +44,11 @@ int Character::Attack() const
 	return attackPower;
 }
 
+int Character::Getdefence() const
+{
+	return defense;
+}
+
 int Character::HaveGold() const
 {
 	return gold;

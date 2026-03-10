@@ -27,6 +27,7 @@ public:
 private:
 	BattleState state;
 	bool isFinished;
+	bool isDefending;
 	Character* player;
 	std::vector<Character*> enemies;
 };

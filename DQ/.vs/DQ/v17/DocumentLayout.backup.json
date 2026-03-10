@@ -1,66 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\",
+  "WorkspaceRootPath": "C:\\Users\\ktc\\Desktop\\310\\DQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Spell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Spell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\BattleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\FieldScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Spell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Spell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\BattleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\SaveManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\FieldScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\SaveManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\BattleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\FieldScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\SaveManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92A56BE2-66FA-449C-823F-4783E5E4971A}|DQ\\DQ.vcxproj|solutionrelative:DQ\\FieldScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,190 +70,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Character.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.cpp",
               "RelativeDocumentMoniker": "DQ\\Character.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.cpp",
               "RelativeToolTip": "DQ\\Character.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-12T10:18:48.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Scene.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Scene.h",
               "RelativeDocumentMoniker": "DQ\\Scene.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Scene.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Scene.h",
               "RelativeToolTip": "DQ\\Scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-17T16:59:37.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Spell.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Spell.h",
-              "RelativeDocumentMoniker": "DQ\\Spell.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Spell.h",
-              "RelativeToolTip": "DQ\\Spell.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-25T14:37:08.73Z",
+              "WhenOpened": "2026-02-17T16:59:37.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.h",
               "RelativeDocumentMoniker": "DQ\\Game.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.h",
               "RelativeToolTip": "DQ\\Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-17T17:14:00.613Z"
+              "WhenOpened": "2026-02-17T17:14:00.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "FieldScene.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.h",
               "RelativeDocumentMoniker": "DQ\\FieldScene.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.h",
               "RelativeToolTip": "DQ\\FieldScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-17T14:57:51.095Z"
+              "WhenOpened": "2026-02-17T14:57:51.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Character.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.h",
               "RelativeDocumentMoniker": "DQ\\Character.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Character.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Character.h",
               "RelativeToolTip": "DQ\\Character.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-12T10:15:21.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BattleScene.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.cpp",
               "RelativeDocumentMoniker": "DQ\\BattleScene.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.cpp",
               "RelativeToolTip": "DQ\\BattleScene.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAHEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv14AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-10T04:58:48.623Z"
+              "WhenOpened": "2026-02-10T04:58:48.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BattleScene.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.h",
               "RelativeDocumentMoniker": "DQ\\BattleScene.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\BattleScene.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\BattleScene.h",
               "RelativeToolTip": "DQ\\BattleScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-10T03:49:32.038Z"
+              "WhenOpened": "2026-02-10T03:49:32.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SaveManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.cpp",
               "RelativeDocumentMoniker": "DQ\\SaveManager.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.cpp",
               "RelativeToolTip": "DQ\\SaveManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-23T15:31:03.431Z"
+              "WhenOpened": "2026-02-23T15:31:03.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Spell.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Spell.h",
+              "RelativeDocumentMoniker": "DQ\\Spell.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Spell.h",
+              "RelativeToolTip": "DQ\\Spell.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-25T14:37:08.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.cpp",
               "RelativeDocumentMoniker": "DQ\\Game.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\Game.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\Game.cpp",
               "RelativeToolTip": "DQ\\Game.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-17T17:15:25.472Z"
+              "WhenOpened": "2026-02-17T17:15:25.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FieldScene.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.cpp",
+              "RelativeDocumentMoniker": "DQ\\FieldScene.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\FieldScene.cpp",
+              "RelativeToolTip": "DQ\\FieldScene.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-17T15:00:50.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "FieldScene.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.cpp",
-              "RelativeDocumentMoniker": "DQ\\FieldScene.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\FieldScene.cpp",
-              "RelativeToolTip": "DQ\\FieldScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-17T15:00:50.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\main.cpp",
               "RelativeDocumentMoniker": "DQ\\main.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\main.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\main.cpp",
               "RelativeToolTip": "DQ\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T16:11:51.317Z"
+              "WhenOpened": "2026-02-11T16:11:51.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "TownScene.cpp",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.cpp",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.cpp",
               "RelativeDocumentMoniker": "DQ\\TownScene.cpp",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.cpp",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.cpp",
               "RelativeToolTip": "DQ\\TownScene.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowDsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-21T10:52:22.054Z"
+              "WhenOpened": "2026-02-21T10:52:22.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "SaveManager.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.h",
               "RelativeDocumentMoniker": "DQ\\SaveManager.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\SaveManager.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\SaveManager.h",
               "RelativeToolTip": "DQ\\SaveManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-23T15:27:26.953Z"
+              "WhenOpened": "2026-02-23T15:27:26.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "TownScene.h",
-              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.h",
+              "DocumentMoniker": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.h",
               "RelativeDocumentMoniker": "DQ\\TownScene.h",
-              "ToolTip": "C:\\Users\\Owner\\Desktop\\Dq\\DQ\\DQ\\TownScene.h",
+              "ToolTip": "C:\\Users\\ktc\\Desktop\\310\\DQ\\DQ\\TownScene.h",
               "RelativeToolTip": "DQ\\TownScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-19T18:33:04.676Z"
+              "WhenOpened": "2026-02-19T18:33:04.676Z",
+              "EditorCaption": ""
             }
           ]
         }

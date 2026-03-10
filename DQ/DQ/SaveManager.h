@@ -6,4 +6,5 @@ class SaveManager
 public:
 	static void Save(Character* player);
 	static void Load(Character* player);
+
 };
