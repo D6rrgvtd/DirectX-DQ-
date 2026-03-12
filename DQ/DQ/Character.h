@@ -5,7 +5,7 @@
 class Character
 {
 public:
-	Character(const std::string& name, int hp, int atk, int speed,int keke,int maey);
+	Character(const std::string& name, int hp, int atk, int speed,int keke,int maey,int def);
    
 	int GetHP() const;
 	const std::string& GetName() const;
@@ -29,6 +29,7 @@ public:
 	void SetMP(int value);
 	void SetGold(int value);
 	void SetExp(int value);
+	void SetDef(int value);
 
 
 protected:

@@ -155,3 +155,8 @@ void Character::SetExp(int value)
 {
 	exp = value;
 }
+
+void Character::SetDef(int value)
+{
+	defense = value;
+}
