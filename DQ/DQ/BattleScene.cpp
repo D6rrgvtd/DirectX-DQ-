@@ -1,4 +1,4 @@
-#include "BattleScene.h"
+Ôªø#include "BattleScene.h"
 
 using namespace std;
 
@@ -26,9 +26,9 @@ void BattleScene::Init()
 	state = BattleState::start;
     isFinished = false;
     isDefending = false;
-	player = new Character("ÉvÉåÉCÉÑÅ[", 30, 5,7,0,0);
-    enemies.push_back(new Character("ÉXÉâÉCÉÄ1", 8,3,3,2,1));
-    enemies.push_back(new Character("ÉXÉâÉCÉÄ2", 8,3,3,2,1));
+	player = new Character("„Éó„É¨„Ç§„É§„Éº", 30, 5,7,0,0,5);
+    enemies.push_back(new Character("„Çπ„É©„Ç§„É†1", 8,3,3,2,1,2));
+    enemies.push_back(new Character("„Çπ„É©„Ç§„É†2", 8,3,3,2,1,2));
     
     srand((unsigned int)time(nullptr));
 
@@ -40,7 +40,7 @@ void BattleScene::Update()
     switch (state)
     {
     case BattleState::start:
-        cout << "ÉÇÉìÉXÉ^Å[Ç™Ç†ÇÁÇÌÇÍÇΩÅI\n";
+        cout << "„É¢„É≥„Çπ„Çø„Éº„Åå„ÅÇ„Çâ„Çè„Çå„ÅüÔºÅ\n";
         for (auto e : enemies)
         {
             cout << e->GetName() << "\n";
@@ -62,11 +62,11 @@ void BattleScene::Update()
            }
         }
 
-        cout << "1. ÇΩÇΩÇ©Ç§\n";
-        cout << "2. Ç∂Ç„Ç‡ÇÒ\n";
-        cout << "3. Ç⁄Ç§Ç¨ÇÂ\n";
-        cout << "4. Ç…Ç∞ÇÈ\n";
-        cout << "ÉRÉ}ÉìÉh: ";
+        cout << "1. „Åü„Åü„Åã„ÅÜ\n";
+        cout << "2. „Åò„ÇÖ„ÇÇ„Çì\n";
+        cout << "3. „Åº„ÅÜ„Åé„Çá\n";
+        cout << "4. „Å´„Åí„Çã\n";
+        cout << "„Ç≥„Éû„É≥„Éâ: ";
 
         int command;
         cin >> command;
@@ -81,7 +81,7 @@ void BattleScene::Update()
                 }
             }
 
-            cout << "Ç«ÇÃìGÇçUåÇ?:";
+            cout << "„Å©„ÅÆÊïµ„ÇíÊîªÊíÉ?:";
             int target;
             cin >> target;
             target--;
@@ -95,7 +95,7 @@ void BattleScene::Update()
                     if (rand() % 100 < 7)
                     {
                         damage *= 2;
-                        cout << "Ç©Ç¢ÇµÇÒÇÃÇ¢ÇøÇ∞Ç´\n";
+                        cout << "„Åã„ÅÑ„Åó„Çì„ÅÆ„ÅÑ„Å°„Åí„Åç\n";
                     }
                     damage -= e->Getdefence() / 4;
                     if (damage <= 0)
@@ -103,22 +103,22 @@ void BattleScene::Update()
                         damage = 1;
                     }
                     cout << e->GetName()
-                        << "Ç…" << damage
-                        << "ÇÃÉ_ÉÅÅ[ÉW!\n";
+                        << "„Å´" << damage
+                        << "„ÅÆ„ÉÄ„É°„Éº„Ç∏!\n";
 
                     e->TakeDamage(damage);
                     if (e->GetHP() <= 0)
                     {
-                        cout << e->GetName() << "ÇÇΩÇ®ÇµÇΩÅI\n";
+                        cout << e->GetName() << "„Çí„Åü„Åä„Åó„ÅüÔºÅ\n";
                     }
                 }
             }
         }
         else if (command == 2)
         {
-            cout << "1. Å@É{Éã\n";
-            cout << "2. Å@ÉqÅ[Éã\n";
-            cout << "3.   ÉUÉã\n";
+            cout << "1. „ÄÄ„Éú„É´\n";
+            cout << "2. „ÄÄ„Éí„Éº„É´\n";
+            cout << "3.   „Ç∂„É´\n";
 
             int spellnput;
             cin >> spellnput;
@@ -135,11 +135,11 @@ void BattleScene::Update()
                         if (e->GetHP() > 0)
                         {
                             e->TakeDamage(damage);
-                            cout << "É{Éã!" << endl;
-                            cout<<e->GetName()<<"Ç…" << damage << "É_ÉÅÅ[ÉW!\n";
+                            cout << "„Éú„É´!" << endl;
+                            cout<<e->GetName()<<"„Å´" << damage << "„ÉÄ„É°„Éº„Ç∏!\n";
                             if (e->GetHP() <= 0)
                             {
-                                cout << e->GetName() << "ÇÇΩÇ®ÇµÇΩÅI\n";
+                                cout << e->GetName() << "„Çí„Åü„Åä„Åó„ÅüÔºÅ\n";
                             }
                             break;
                         }
@@ -147,7 +147,7 @@ void BattleScene::Update()
                 }
                 else
                 {
-                    cout << "MPÇ™ë´ÇËÇ»Ç¢!\n";
+                    cout << "MP„ÅåË∂≥„Çä„Å™„ÅÑ!\n";
                 }
             }
             else if (spellnput == 2)
@@ -158,11 +158,11 @@ void BattleScene::Update()
                     int rhp = 10 + rand() % 3;
                     player->RecoverHP(rhp);
 
-                    cout << "ÉqÅ[Éã!" << rhp<< " HPâÒïúÅI\n";
+                    cout << "„Éí„Éº„É´!" << rhp<< " HPÂõûÂæ©ÔºÅ\n";
                 }
                 else
                 {
-                    cout << "MPÇ™ë´ÇËÇ»Ç¢ÅI\n";
+                    cout << "MP„ÅåË∂≥„Çä„Å™„ÅÑÔºÅ\n";
                 }
             }
             else if (spellnput == 3)
@@ -171,7 +171,7 @@ void BattleScene::Update()
                 {
                     player->UseMP(4);
 
-                    cout << "ÉUÉã!\n";
+                    cout << "„Ç∂„É´!\n";
                     for (auto e : enemies)
                     {
                         if (e->GetHP() > 0)
@@ -184,33 +184,33 @@ void BattleScene::Update()
                             {
                                 damage = 0;
                             }
-                            cout << e->GetName() << "Ç…" << damage << "ÇÃÉ_ÉÅÅ[ÉW\n";
+                            cout << e->GetName() << "„Å´" << damage << "„ÅÆ„ÉÄ„É°„Éº„Ç∏\n";
                             e->TakeDamage(damage);
 
                             if (e->GetHP() <= 0)
                             {
-                                cout << e->GetName() << "ÇÇΩÇ®ÇµÇΩÅI\n";
+                                cout << e->GetName() << "„Çí„Åü„Åä„Åó„ÅüÔºÅ\n";
                             }
                         }
                     }
                 }
                 else
                 {
-                    cout << "MPÇ™ë´ÇËÇ»Ç¢!\n";
+                    cout << "MP„ÅåË∂≥„Çä„Å™„ÅÑ!\n";
                 }
             }
         }
         else if (command == 3)
         {
-            cout << player->GetName() << "ÇÕÇ⁄Ç§Ç¨ÇÂÇµÇƒÇ¢ÇÈ\n";
+            cout << player->GetName() << "„ÅØ„Åº„ÅÜ„Åé„Çá„Åó„Å¶„ÅÑ„Çã\n";
             isDefending = true;
         }
         else if (command == 4)
         {
-            cout << "Ç…Ç∞ÇæÇµÇΩÅI\n";
+            cout << "„Å´„Åí„Å†„Åó„ÅüÔºÅ\n";
             if (rand() % 100 < 30)
             {
-                cout << "ÇµÇ©ÇµÅAÇ‹ÇÌÇËÇ±Ç‹ÇÍÇƒÇµÇ‹Ç¡ÇΩÅI\n";
+                cout << "„Åó„Åã„Åó„ÄÅ„Åæ„Çè„Çä„Åì„Åæ„Çå„Å¶„Åó„Åæ„Å£„ÅüÔºÅ\n";
             }
             else
             {
@@ -226,7 +226,7 @@ void BattleScene::Update()
                 if (rand() % 100 < 7)
                 {
                     damage *= 2;
-                    cout << "Ç´Ç„Ç§ÇµÇÂÇÃÇ¢ÇøÇ∞Ç´\n";
+                    cout << "„Åç„ÇÖ„ÅÜ„Åó„Çá„ÅÆ„ÅÑ„Å°„Åí„Åç\n";
                 }
                 if (isDefending)
                 {
@@ -237,8 +237,8 @@ void BattleScene::Update()
                 {
                     damage = 1;
                 }
-                cout << e->GetName() << "ÇÃÇ±Ç§Ç∞Ç´ÅI\n";
-                cout << damage << "ÇÃÉ_ÉÅÅ[ÉW!\n";
+                cout << e->GetName() << "„ÅÆ„Åì„ÅÜ„Åí„ÅçÔºÅ\n";
+                cout << damage << "„ÅÆ„ÉÄ„É°„Éº„Ç∏!\n";
                 player->TakeDamage(damage);
                
             }
@@ -261,7 +261,7 @@ void BattleScene::Update()
     case BattleState::end:
         if (player->GetHP() <= 0)
         {
-            cout << "Ç†Ç»ÇΩÇÕéÄÇÒÇ≈ÇµÇ‹Ç¡ÇΩ\n";
+            cout << "„ÅÇ„Å™„Åü„ÅØÊ≠ª„Çì„Åß„Åó„Åæ„Å£„Åü\n";
         }
         else
         {
@@ -269,11 +269,11 @@ void BattleScene::Update()
             {
                 if (e->GetHP() <= 0)
                 {
-                    cout << e->GetName() << "Çì|ÇµÇΩÅI\n";
+                    cout << e->GetName() << "„ÇíÂÄí„Åó„ÅüÔºÅ\n";
                     player->AddExp(e->GetExp());
-                    cout << e->GetExp() << "ÇÃÇØÇ¢ÇØÇÒÇøÇälìæ!\n";
+                    cout << e->GetExp() << "„ÅÆ„Åë„ÅÑ„Åë„Çì„Å°„ÇíÁç≤Âæó!\n";
                     player->AddGold(e->GetGold());
-                    cout << e->GetGold() << "ÉSÅ[ÉãÉhÇälìæ!\n";
+                    cout << e->GetGold() << "„Ç¥„Éº„É´„Éâ„ÇíÁç≤Âæó!\n";
                 }
             }
 

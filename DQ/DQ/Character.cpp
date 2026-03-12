@@ -1,6 +1,6 @@
-#include "Character.h"
+ï»¿#include "Character.h"
 
-Character::Character(const std::string&, int hp, int attack, int speed,int keke,int maey)
+Character::Character(const std::string&, int hp, int attack, int speed,int keke,int maey,int def)
 {
 	this->name = name;
 	this->maxHP = hp;
@@ -9,6 +9,7 @@ Character::Character(const std::string&, int hp, int attack, int speed,int keke,
 	this->speed = speed;
 	this->keikentu = keke;
 	this->maney = maey;
+	this->defense = def;
 
 	gold = 20;
 	maxMP = 10;
@@ -66,7 +67,7 @@ int Character::GetExp() const
 void Character::AddGold(int amount)
 {
 	gold += maney;
-	std::cout << maney << "ƒS[ƒ‹ƒhŠl“¾\n";
+	std::cout << maney << "ã‚´ãƒ¼ãƒ«ãƒ‰ç²å¾—\n";
 	if (gold < 0)
 		gold = 0;
 }
@@ -76,10 +77,15 @@ void Character::AddAttack(int amount)
 	attackPower += amount;
 }
 
+void Character::Adddefence(int amount)
+{
+	defense += amount;
+}
+
 void Character::AddExp(int amount)
 {
 	exp += keikentu;
-	std::cout <<keikentu<< "‚ÌŒoŒ±’l‚ðŠl“¾\n";
+	std::cout <<keikentu<< "ã®çµŒé¨“å€¤ã‚’ç²å¾—\n";
 
 	if (exp >= nextExp)
 	{
@@ -96,9 +102,10 @@ void Character::LevelUp()
 	maxHP += 5;
 	attackPower += 2;
 	maxMP += 3;
+	defense += 1;
 
-	std::cout << "ƒŒƒxƒ‹ƒAƒbƒv\n";
-	std::cout << "ƒŒƒxƒ‹" << level << "‚É‚È‚Á‚½I\n";
+	std::cout << "ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—\n";
+	std::cout << "ãƒ¬ãƒ™ãƒ«" << level << "ã«ãªã£ãŸï¼\n";
 }
 
 

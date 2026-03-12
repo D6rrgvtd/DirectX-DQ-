@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <string>
 #include "Spell.h"
 #include <iostream>
@@ -17,6 +17,7 @@ public:
 	int GetGold() const;
 	void AddGold(int amount);
 	void AddAttack(int amount);
+	void Adddefence(int amount);
 	void AddExp(int amount);
 	void LevelUp();
 	void FullHeal();
